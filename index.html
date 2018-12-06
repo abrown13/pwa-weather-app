@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather</title>
+
+   <link rel="stylesheet" href="css/bulma-carousel.min.css"> 
+   <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+<body>
+
+    <h1>PWA Weather App</h1>
+
+  <div class='carousel carousel-animated carousel-animate-slide'>
+    <div class='carousel-container'>
+      
+      <!-- Primary -->
+      <div  id="primary" class='carousel-item is-active'>
+        
+        <ul>
+            <li class="image">
+                <img src="">
+            </li>
+            <li class="city">City</li>
+            <li class="temp">Temp</li>
+          </ul>
+
+      </div><!-- end .primary -->
+
+      <!-- Secondary  -->
+      <div id="secondary" class='carousel-item'>
+        
+        <ul>
+            <li class="image">
+                <img src="">
+            </li>
+            <li class="city">City</li>
+            <li class="temp">Temp</li>
+          </ul>
+      
+      </div><!-- end .secondary -->
+     
+      <!-- Geolocation -->
+      <div id="geolocation" class='carousel-item'>
+        
+        <ul>
+          <li class="image">
+              <img src="">
+          </li>
+          <li class="city">City</li>
+          <li class="temp">Temp</li>
+        </ul>
+
+       <button>Get Location</button>
+      
+      </div>
+  
+    </div><!-- end .carousel-container -->
+  </div><!-- end .carousel -->
+
+
+<!-- jQuery Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Weather Plugin -->
+<script src="js/weather-plugin.js"></script>
+<!-- Bulma Plugin -->
+<script src="js/bulma-carousel.min.js"></script>
+<!-- Our Scripts -->
+<script src="js/scripts.js"></script> 
+
+</body>
+</html>

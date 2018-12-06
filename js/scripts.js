@@ -1,20 +1,3 @@
-// Detect Service Worker
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker
-    .register('/service-worker.js')
-    .then(function(registration) {
-      console.log(
-        'Service Worker registration successful with scope: ',
-        registration.scope
-      );
-    })
-    .catch(function(err) {
-      console.log('Service Worker registration failed: ', err);
-    });
-}
-
-
-
 // Carousel
 var carousels = bulmaCarousel.attach(); // carousels now contains an array of all Carousel instances
 

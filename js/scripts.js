@@ -45,27 +45,16 @@ if ( 'geolocation' in navigator ) {
 }
 
 // Get Weather
-$('button').click( function(){
+
  
   navigator.geolocation.getCurrentPosition(function(position) {
    
    // Check lat/long coordinates
    var lat = position.coords.latitude;
    var long = position.coords.longitude;
-   
-   console.log(lat, long);
-   
-   // Call Get Weather Function
-   getWeather( lat + ',' + long );
+   var location = lat + ',' + long;
     
-  });
-});
-
-
-// Define Get Weather Function
-var getWeather = function( location ) {
-
-  console.log(location);
+    // Define Get Weather Function
 
   $.simpleWeather({
 
@@ -89,4 +78,6 @@ var getWeather = function( location ) {
 
   });
 
-};
+});
+
+

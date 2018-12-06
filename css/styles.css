@@ -1,8 +1,4 @@
 /* Weather Listings */
-body {
-    background: blue;
-}
-
 
 /* Remove bullet on first list item */
 ul li:first-child  {

@@ -2,8 +2,10 @@
     "name": "Progressive Web App for Weather",
     "short_name": "PWA Web App",
     "description": "Weather in your hand.",
+    "scope": ".",
     "start_url": "/",
     "display": "standalone",
+    "orientation": "portrait", 
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
     "icons": [
